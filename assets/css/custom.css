@@ -1,7 +1,7 @@
 body {
   background: #f6ecd9;
   color: #222;
-  font-family: 'Georgia', serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -24,6 +24,7 @@ header {
   font-weight: bold;
   margin-bottom: 0.2rem;
   letter-spacing: 1px;
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .navbar {
@@ -50,7 +51,7 @@ main {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Georgia', serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -69,4 +70,22 @@ img {
   color: #888;
   font-size: 0.95rem;
   margin-bottom: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  color: #888;
+  font-size: 1.1rem;
+}
+
+.footer-x-link {
+  color: #222;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+.footer-x-link:hover {
+  color: #b48a78;
 } 

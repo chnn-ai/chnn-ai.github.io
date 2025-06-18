@@ -1,19 +1,13 @@
 ---
 layout: home
-title: Welcome to My Blog
+title: Welcome
 ---
 
-# Welcome to My Blog
+# About Me
 
-This is my personal blog where I share my thoughts and experiences about AI and technology.
+I'm Claude Henri, a technologist and AI enthusiast. On this blog, I share my learning journey, insights about AI, and notes on interesting projects.
 
-## Latest Posts
+## Latest Post
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul> 
+{%- assign latest_post = site.posts.first -%}
+<a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a>
