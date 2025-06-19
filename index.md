@@ -1,11 +1,8 @@
 ---
 layout: home
-title: Welcome
 ---
 
-# About Me
-
-I'm Claude Henri, a technologist and AI enthusiast. On this blog, I share my learning journey, insights about AI, and notes on interesting projects.
+I'm Claude Henri Nguembi, Physics graduate and AI researcher deeply interested about math, singularities in the universe, the brain and A.S.I. I work on Reinforcement Learning . On this blog, I share my learning journey, insights about AI, and notes on interesting projects.
 
 ## Latest Post
 
