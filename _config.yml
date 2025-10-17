@@ -1,10 +1,12 @@
-title: Claude Henri's Blog
-description: Welcome to my blog about AI and technology
+title: CHNN's blog
+description: My blog about AI and technology
 baseurl: ""
 url: "https://chhn-ai.github.io"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 theme: minima
 plugins:
   - jekyll-feed

@@ -4,8 +4,6 @@ title: Blogs
 permalink: /blogs/
 ---
 
-# Blogs
-
 Here you will find all my blog posts.
 
 <ul>
@@ -15,4 +13,4 @@ Here you will find all my blog posts.
       <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span>
     </li>
   {% endfor %}
-</ul> 
+</ul>
